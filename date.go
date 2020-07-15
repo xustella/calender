@@ -16,3 +16,14 @@ func (d *Date) SetMonth(m int) {
 func (d *Date) SetDay(day int) {
 	d.day = day
 }
+
+//the getter methods:
+func (d *Date) Year() int {
+	return d.year
+}
+func (d *Date) Month() int {
+	return d.month
+}
+func (d *Date) Day() int {
+	return d.day
+}
